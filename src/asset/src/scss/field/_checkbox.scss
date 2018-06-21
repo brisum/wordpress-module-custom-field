@@ -1,0 +1,37 @@
+.wrap-field  {
+  .switch-element {
+    float: left;
+    margin-right: 20px;
+
+    input:checked ~ .switch-paddle {
+      background-color: #2199e8;
+    }
+    input:checked + label > .switch-active {
+      display: block;
+    }
+  }
+}
+
+.wrap-field.checkbox-button,
+.wrap-field.checkbox-group-button {
+  .button-element {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  input[type=checkbox] {
+    display: none;
+  }
+
+  input + label {
+    margin: 0;
+    background: $medium-gray;
+  }
+  input + label:active {
+    transform: translateY(0px);
+  }
+  input:checked + label {
+    background: map-get($foundation-palette, primary);
+  }
+}
+

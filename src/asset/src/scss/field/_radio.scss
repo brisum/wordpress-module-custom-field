@@ -1,0 +1,17 @@
+.wrap-field.radio-buttons-group {
+  .field {
+    .button-group input[type=radio] {
+      display: none;
+    }
+
+    .button-group input + label {
+      background: $medium-gray;
+    }
+    .button-group input + label:active {
+      transform: translateY(0px);
+    }
+    .button-group input:checked + label {
+      background: map-get($foundation-palette, primary);
+    }
+  }
+}

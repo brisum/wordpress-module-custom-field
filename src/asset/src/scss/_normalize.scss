@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+input[type=radio], input[type=checkbox] {
+  vertical-align: inherit;
+}
+
+.button {
+  height: auto;
+}
+
+.button:first-child,
+.button:last-child {
+  border-radius: inherit;
+}
+
+.row .row {
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  max-width: none;
+}

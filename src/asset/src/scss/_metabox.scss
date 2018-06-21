@@ -1,0 +1,24 @@
+.raw-box {
+  margin: 20px 0;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+
+  .raw-box-title {
+    padding: 8px 1rem;
+    background: #F5F5F5;
+    border-bottom: 1px solid #e5e5e5;
+    font-weight: bold;
+  }
+
+  .raw-box-inside {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.metabox.content-before,
+.metabox.content,
+.metabox.content-after,
+.metabox.wrap-field {
+  margin-bottom: 20px;
+}
